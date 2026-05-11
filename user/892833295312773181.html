@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mraow's Profile</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #0f0f13;
+      background-image: none;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: rgba(24, 24, 28, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 520px;
+      color: #f2f2f2;
+    }
+
+    .accent {
+      height: 4px;
+      border-radius: 4px 4px 0 0;
+      background: #5865f2;
+      margin: -2rem -2rem 2rem;
+      border-radius: 16px 16px 0 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #5865f2;
+      flex-shrink: 0;
+    }
+
+    .avatar-placeholder {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #5865f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      font-weight: 500;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .display-name {
+      font-size: 22px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+
+    .discord-name {
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .bio {
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .fields {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+
+    .field {
+      background: rgba(255,255,255,0.06);
+      border-radius: 10px;
+      padding: 0.65rem 0.9rem;
+    }
+
+    .field-label {
+      font-size: 10px;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 4px;
+    }
+
+    .field-value {
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .links-title {
+      font-size: 12px;
+      color: rgba(255,255,255,0.35);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 0.65rem;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 12px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.08);
+      text-decoration: none;
+      color: #f2f2f2;
+      font-size: 13px;
+      transition: background 0.15s;
+      word-break: break-all;
+    }
+
+    .link-item:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .link-favicon {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .footer {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 11px;
+      color: rgba(255,255,255,0.25);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="accent"></div>
+
+    <div class="header">
+      <img class="avatar" src="https://LocalDumbassShark.github.io/Profile/assets/892833295312773181/avatar.jpg" alt="avatar" onerror="this.style.display='none'">
+      <div>
+        <div class="display-name">mraow</div>
+        <div class="discord-name">Wyppy Chan~ :3</div>
+      </div>
+    </div>
+
+    
+    <div class="fields">
+            <div class="field">
+              <div class="field-label">Pronouns</div>
+              <div class="field-value">:3 / :3 / :3</div>
+            </div></div>
+    
+
+    <div class="footer">profile · made with ❤️</div>
+  </div>
+</body>
+</html>
