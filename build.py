@@ -29,7 +29,7 @@ def build_profile(profile: dict) -> str:
     page = template
 
     accent_color = profile.get("color", "#5865f2")
-    bg_color = profile.get("color", "#0f0f13")  # same as accent
+    bg_color = profile.get("color", "#0f0f13")
     bg_image = profile.get("background_image", "")
     bg_image_css = f"url('{bg_image}')" if bg_image else "none"
 
