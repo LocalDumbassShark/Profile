@@ -45,7 +45,7 @@ def build_profile(profile: dict) -> str:
     # Avatar
     custom_avatar = profile.get("custom_avatar", "")
     if custom_avatar:
-        avatar_html = f'<img class="avatar" src="{custom_avatar}" alt="avatar" onerror="this.style.display=\'none\'">'
+        avatar_html = f'<img class="avatar" src="{custom_avatar}" alt="avatar" onerror="this.outerHTML=\'<div class=\\\"avatar-placeholder\\\">{ initials}</div>\'">'
     else:
         initials = display_name[:2].upper()
         avatar_html = f'<div class="avatar-placeholder">{initials}</div>'
